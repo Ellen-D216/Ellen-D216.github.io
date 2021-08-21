@@ -17,7 +17,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"ellen-d216.github.io","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"ellen-d216.github.io","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="major in Nuclear Engineering and AI.">
@@ -102,6 +102,7 @@
 
   <div class="site-nav-right">
     <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
@@ -123,7 +124,7 @@
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">2</span></a>
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">4</span></a>
 
   </li>
         <li class="menu-item menu-item-categories">
@@ -133,14 +134,41 @@
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">2</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">3</span></a>
 
   </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
   </ul>
 </nav>
 
 
 
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
 
 </div>
     </header>
@@ -159,6 +187,72 @@
 
           <div class="content index posts-expand">
             
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://ellen-d216.github.io/2021/08/21/%E4%BD%BF%E7%94%A8Keras%E6%9E%84%E5%BB%BA%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Ellen DeGeneres">
+      <meta itemprop="description" content="major in Nuclear Engineering and AI.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ellenの小站">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/08/21/%E4%BD%BF%E7%94%A8Keras%E6%9E%84%E5%BB%BA%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/" class="post-title-link" itemprop="url">使用Keras构建神经网络</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2021-08-21 12:46:27 / 修改时间：13:21:48" itemprop="dateCreated datePublished" datetime="2021-08-21T12:46:27+08:00">2021-08-21</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>Keras是个高级API，用它搭建神经网络很简单，适合入门。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/08/21/%E4%BD%BF%E7%94%A8Keras%E6%9E%84%E5%BB%BA%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
       
   
   
@@ -188,7 +282,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2021-08-21 09:04:10 / 修改时间：12:41:23" itemprop="dateCreated datePublished" datetime="2021-08-21T09:04:10+08:00">2021-08-21</time>
+              <time title="创建时间：2021-08-21 09:04:10 / 修改时间：13:21:08" itemprop="dateCreated datePublished" datetime="2021-08-21T09:04:10+08:00">2021-08-21</time>
             </span>
 
           
@@ -202,536 +296,15 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="线性回归"><a href="#线性回归" class="headerlink" title="线性回归"></a>线性回归</h1><p>公式： $\hat{y}=\theta_0+\theta_1x_1+\theta_2x_2+…+\theta_nx_n$</p>
-<p>向量形式：$\hat{y}=h_\theta(\vec{x})=\vec{\theta_0^T}\cdot \vec{x}$</p>
-<p>损失函数：$MSE(\vec{X},h_\theta)=\frac{1}{m}\sum_{i=1}^m(\vec{\theta_0^T}\cdot \vec{x^{(i)}}-y^{(i)})$</p>
-<p>通过最小化MSE球的参数$\theta$，可得标准方程：$\hat{\theta}=(X^TX)^{(-1)}X^Ty$</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">%matplotlib inline</span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">from</span> sklearn.linear_model <span class="keyword">import</span> LinearRegression</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br></pre></td></tr></table></figure>
-
-
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">X = <span class="number">2</span> * np.random.rand(<span class="number">100</span>,<span class="number">1</span>)</span><br><span class="line">y = <span class="number">4</span> + <span class="number">3</span> * X + np.random.randn(<span class="number">100</span>,<span class="number">1</span>)</span><br></pre></td></tr></table></figure>
-
-
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">lin_reg = LinearRegression()</span><br><span class="line">lin_reg.fit(X, y)</span><br></pre></td></tr></table></figure>
-
-
-
-
-<pre><code>LinearRegression()
-</code></pre>
-<h2 id="sklearn中线性回归的重要属性和方法"><a href="#sklearn中线性回归的重要属性和方法" class="headerlink" title="sklearn中线性回归的重要属性和方法"></a>sklearn中线性回归的重要属性和方法</h2><ul>
-<li><code>intercept_</code>表示偏置项</li>
-<li><code>coef_</code>表示权重</li>
-<li><code>fit(X, y)</code>表示拟合过程</li>
-<li><code>predict(X, y)</code>表示预测过程</li>
-<li><code>score(X, y)</code>对于线性回归表示相关系数</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">lin_reg.intercept_,lin_reg.coef_</span><br></pre></td></tr></table></figure>
-
-
-
-
-<pre><code>(array([3.93410448]), array([[2.94751289]]))
-</code></pre>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">plt.figure()</span><br><span class="line">plt.scatter(X, y, c=<span class="string">&#x27;b&#x27;</span>, s=<span class="number">2</span>)</span><br><span class="line">plt.plot(X, lin_reg.predict(X), color=<span class="string">&#x27;red&#x27;</span>)</span><br><span class="line">plt.text(<span class="number">1.6</span>,<span class="number">4</span>,<span class="string">&#x27;score:&#123;:.2f&#125;&#x27;</span>.<span class="built_in">format</span>(lin_reg.score(X,y)))</span><br></pre></td></tr></table></figure>
-
-
-
-
-<pre><code>Text(1.6, 4, &#39;score:0.80&#39;)
-</code></pre>
-<img src="/2021/08/21/%E5%9B%9E%E5%BD%92%E5%A4%A7%E5%AE%B6%E6%97%8F/output_6_1.png" class="" alt="png">
-
-
-<h1 id="梯度下降"><a href="#梯度下降" class="headerlink" title="梯度下降"></a>梯度下降</h1><p>中心思想：迭代的调整参数从而使损失函数最小化。</p>
-<p>做法：通过测量参数向量$\theta$相关的误差函数和局部梯度，并沿着降低梯度的方向调整，直到梯度为0，到达最小值。</p>
-<p>具体来说：首先使用一个随机的$\theta$值，然后逐步改进，每次踏出一步，每一步都尝试降低一点损失函数，直到算法收敛到一个最小值梯度下降中迭代的每一步的步长，叫做<strong>学习率</strong>，这是个超参数。</p>
-<blockquote>
-<p>如果学习率过高，会导致算法发散，值越来越大；<br>如果学习率太低，算法需要经过大量迭代才能收敛，这将耗费很长时间。</p>
-</blockquote>
-<p>梯度下降陷阱：在实际情况中，由于算法十分复杂，梯度有可能在未达到全局最小值时就不再下降，收敛到局部最小值在使用梯度下降时最好保证特征值的大小比例都差不多，对数据进行标准化或归一化后再进行训练。</p>
-<h2 id="批量梯度下降"><a href="#批量梯度下降" class="headerlink" title="批量梯度下降"></a>批量梯度下降</h2><p>要实现梯度下降，需要计算每个模型关于参数$\theta_j$的损失函数的梯度，在计算梯度下降的每一步时，都是基于完整的训练集X的，这就是为什么该算法叫批量梯度下降。但是面对非常庞大的数据集时，算法会变的极慢。但是比标准方程或是SVD快的多。</p>
-<p>有了梯度向量，我们就得到了梯度下降的公式，其中$\eta$是学习率：</p>
-<p>$$\theta_t=\theta_{t-1}-\eta \nabla_\theta MSE(\theta)$$</p>
-<h2 id="随机梯度下降"><a href="#随机梯度下降" class="headerlink" title="随机梯度下降"></a>随机梯度下降</h2><p>每一步在训练集中随机选择一个实例，并且仅基于该单个实例来计算梯度。</p>
-<p>由于算法的随机性质，它比批量随机梯度下降要不规则的多，损失函数不再是缓缓降低直到最小值，而是不断上上下下，但总体来看还是缓慢下降直到收敛到最小值。当成本函数非常不规则时，随机梯度下降可以帮助算法跳出局部最小值。</p>
-<p>随机性的好处是可以跳出局部最优，但缺点是永远定位不出最小值。要解决这个困难，一个好办法是逐步降低学习率，确定每个迭代学习率的函数叫做学习率调度。</p>
-<blockquote>
-<p>注意：使用随机梯度下降时，训练实例必须独立且均匀分布，以确保平均而言将参数拉向全局最优，确保该点可以对实例进行随机混洗。</p>
-</blockquote>
-<h2 id="小批量梯度下降"><a href="#小批量梯度下降" class="headerlink" title="小批量梯度下降"></a>小批量梯度下降</h2><p>在数据集中，随机取小型批量的实例集计算梯度。</p>
-<h1 id="多项式回归"><a href="#多项式回归" class="headerlink" title="多项式回归"></a>多项式回归</h1><p>对于非线性的数据我们仍可以用线性模型进行拟合，我们先将每个特征的幂次方添加为一个新特征，然后再训练线性模型。</p>
-<p>当存在多个特征时，<code>PolynomialFeatures</code>可以将特征的所有组合添加到给定的多项式阶数，但要注意特征组合的数量爆炸。</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> sklearn.preprocessing <span class="keyword">import</span> PolynomialFeatures</span><br></pre></td></tr></table></figure>
-
-
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">X = <span class="number">6</span>*np.random.rand(<span class="number">100</span>,<span class="number">1</span>)-<span class="number">3</span></span><br><span class="line">y = <span class="number">0.5</span>*X**<span class="number">2</span>+X+<span class="number">2</span>+np.random.randn(<span class="number">100</span>,<span class="number">1</span>)</span><br></pre></td></tr></table></figure>
-
-
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">poly = PolynomialFeatures(degree=<span class="number">2</span>,include_bias=<span class="literal">False</span>)</span><br><span class="line">X_poly = poly.fit_transform(X)</span><br><span class="line">X_poly[<span class="number">0</span>]</span><br></pre></td></tr></table></figure>
-
-
-
-
-<pre><code>array([-2.82928969,  8.00488013])
-</code></pre>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">poly_lin_reg = LinearRegression()</span><br><span class="line">poly_lin_reg.fit(X_poly, y)</span><br><span class="line">poly_lin_reg.intercept_,poly_lin_reg.coef_</span><br></pre></td></tr></table></figure>
-
-
-
-
-<pre><code>(array([2.27141448]), array([[0.98932735, 0.41514151]]))
-</code></pre>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">X_new = np.linspace(-<span class="number">3</span>,<span class="number">3</span>,<span class="number">100</span>).reshape(-<span class="number">1</span>,<span class="number">1</span>)</span><br><span class="line">y_new = poly_lin_reg.predict(poly.fit_transform(X_new))</span><br><span class="line">plt.figure()</span><br><span class="line">plt.scatter(X, y, c=<span class="string">&#x27;b&#x27;</span>,s=<span class="number">2</span>)</span><br><span class="line">plt.plot(X_new,y_new,c=<span class="string">&#x27;r&#x27;</span>)</span><br><span class="line">plt.text(<span class="number">1.6</span>,<span class="number">0</span>,<span class="string">&#x27;score:&#123;:.2f&#125;&#x27;</span>.<span class="built_in">format</span>(poly_lin_reg.score(X_poly,y)))</span><br></pre></td></tr></table></figure>
-
-
-
-
-<pre><code>Text(1.6, 0, &#39;score:0.84&#39;)
-</code></pre>
-<img src="/2021/08/21/%E5%9B%9E%E5%BD%92%E5%A4%A7%E5%AE%B6%E6%97%8F/output_16_1.png" class="" alt="png">
-
-
-<h1 id="学习曲线"><a href="#学习曲线" class="headerlink" title="学习曲线"></a>学习曲线</h1><p>为了避免过拟合，有两种常用的方法：</p>
-<ul>
-<li>交叉验证：根据交叉验证的指标泛化较差而训练集上很好，说明过拟合；若两者的表现均不理想，则是欠拟合。</li>
-<li>学习曲线；绘制模型再训练集和验证集上关于训练集大小（或训练迭代）的性能函数。</li>
-</ul>
-<p>欠拟合的学习曲线，训练误差和泛化误差都较高且最后都趋于平稳；过拟合时，泛化误差很高，而训练误差也会逐渐趋于平稳，其也较高。</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> sklearn.metrics <span class="keyword">import</span> mean_squared_error</span><br><span class="line"><span class="keyword">from</span> sklearn.model_selection <span class="keyword">import</span> train_test_split</span><br><span class="line"><span class="keyword">from</span> sklearn.pipeline <span class="keyword">import</span> Pipeline</span><br></pre></td></tr></table></figure>
-
-
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">my_plot</span>(<span class="params">model,X,y</span>):</span></span><br><span class="line">    X_train, X_val, y_train, y_val = train_test_split(X,y,test_size=<span class="number">0.2</span>)</span><br><span class="line">    train_errors, val_errors = [],[]</span><br><span class="line">    <span class="keyword">for</span> m <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>,<span class="built_in">len</span>(X_train)):</span><br><span class="line">        model.fit(X_train[:m], y_train[:m])</span><br><span class="line">        y_train_pred = model.predict(X_train[:m])</span><br><span class="line">        y_val_pred = model.predict(X_val)</span><br><span class="line">        train_errors.append(mean_squared_error(y_train[:m],y_train_pred))</span><br><span class="line">        val_errors.append(mean_squared_error(y_val,y_val_pred))</span><br><span class="line">    plt.plot(np.sqrt(train_errors),c=<span class="string">&#x27;b&#x27;</span>,label=<span class="string">&#x27;train&#x27;</span>)</span><br><span class="line">    plt.plot(np.sqrt(val_errors),c=<span class="string">&#x27;r&#x27;</span>,label=<span class="string">&#x27;validation&#x27;</span>)</span><br><span class="line">    plt.ylim(<span class="number">0</span>,<span class="number">5</span>)</span><br><span class="line">    plt.legend()</span><br><span class="line">    plt.grid(<span class="literal">True</span>)</span><br></pre></td></tr></table></figure>
-
-
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">lin = LinearRegression()</span><br><span class="line">poly_lin = Pipeline([</span><br><span class="line">    (<span class="string">&#x27;poly_feature&#x27;</span>,PolynomialFeatures(degree=<span class="number">100</span>,include_bias=<span class="literal">False</span>)),</span><br><span class="line">    (<span class="string">&#x27;linear&#x27;</span>,LinearRegression())</span><br><span class="line">])</span><br></pre></td></tr></table></figure>
-
-
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">my_plot(lin,X,y)</span><br></pre></td></tr></table></figure>
-
-
-<img src="/2021/08/21/%E5%9B%9E%E5%BD%92%E5%A4%A7%E5%AE%B6%E6%97%8F/output_21_0.png" class="" alt="png">
-
-
-
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">my_plot(poly_lin,X,y)</span><br></pre></td></tr></table></figure>
-
-
-<img src="/2021/08/21/%E5%9B%9E%E5%BD%92%E5%A4%A7%E5%AE%B6%E6%97%8F/output_22_0.png" class="" alt="png">
-
-
-<h1 id="正则化线性模型"><a href="#正则化线性模型" class="headerlink" title="正则化线性模型"></a>正则化线性模型</h1><p>减少过拟合的好方法是对模型进行正则化（约束模型）：它拥有的自由度越少，过拟合数据的难度就越大。</p>
-<h2 id="岭回归"><a href="#岭回归" class="headerlink" title="岭回归"></a>岭回归</h2><p>岭回归也称为Tikhonov正则化，是线性回归的正则化版本，将权重参数$\theta$的L2范数加入损失函数，迫使学习算法不仅拟合数据，还使模型权重尽可能的小。</p>
-<blockquote>
-<p>注意，尽在训练期间将正则化参数添加到损失函数中，训练完成后要使用非正则化的性能度量来评估模型的性能。<br>在执行岭回归或者其他正则化模型之前，都要对数据特征进行缩放，因为其对数据缩放特征敏感。</p>
-</blockquote>
-<p>岭回归的损失函数：</p>
-<p>$$J(\theta)=MSE(\theta)+\alpha \frac{1}{2}\sum_{i=1}^n\theta_i^2$$</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> sklearn.linear_model <span class="keyword">import</span> Ridge</span><br></pre></td></tr></table></figure>
-
-
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">X_ = np.linspace(<span class="number">0</span>,<span class="number">3</span>,<span class="number">100</span>).reshape(-<span class="number">1</span>,<span class="number">1</span>)</span><br><span class="line">plt.figure()</span><br><span class="line"><span class="keyword">for</span> alpha <span class="keyword">in</span> [<span class="number">0</span>,<span class="number">10</span>,<span class="number">100</span>]:</span><br><span class="line">    ridge = Ridge(alpha=alpha)</span><br><span class="line">    ridge.fit(X,y)</span><br><span class="line">    plt.scatter(X,y,c=<span class="string">&#x27;k&#x27;</span>,s=<span class="number">4</span>)</span><br><span class="line">    plt.plot(X_,ridge.predict(X_),label=<span class="string">&#x27;alpha=&#123;&#125;&#x27;</span>.<span class="built_in">format</span>(alpha))</span><br><span class="line">    plt.legend()</span><br></pre></td></tr></table></figure>
-
-
-<img src="/2021/08/21/%E5%9B%9E%E5%BD%92%E5%A4%A7%E5%AE%B6%E6%97%8F/output_26_0.png" class="" alt="png">
-
-
-
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">X_ = np.linspace(<span class="number">0</span>,<span class="number">3</span>,<span class="number">100</span>).reshape(-<span class="number">1</span>,<span class="number">1</span>)</span><br><span class="line">plt.figure()</span><br><span class="line"><span class="keyword">for</span> alpha <span class="keyword">in</span> [<span class="number">0</span>,<span class="number">1e-5</span>,<span class="number">1</span>]:</span><br><span class="line">    pipe = Pipeline([</span><br><span class="line">        (<span class="string">&#x27;0&#x27;</span>,PolynomialFeatures(degree=<span class="number">10</span>,include_bias=<span class="literal">False</span>)),</span><br><span class="line">        (<span class="string">&#x27;1&#x27;</span>,Ridge(alpha=alpha))</span><br><span class="line">    ])</span><br><span class="line">    pipe.fit(X,y)</span><br><span class="line">    plt.scatter(X,y,c=<span class="string">&#x27;k&#x27;</span>,s=<span class="number">4</span>)</span><br><span class="line">    plt.plot(X_,pipe.predict(X_),label=<span class="string">&#x27;alpha=&#123;&#125;&#x27;</span>.<span class="built_in">format</span>(alpha))</span><br><span class="line">    plt.ylim(<span class="number">0</span>,<span class="number">12</span>)</span><br><span class="line">    plt.legend()</span><br></pre></td></tr></table></figure>
-
-
-<img src="/2021/08/21/%E5%9B%9E%E5%BD%92%E5%A4%A7%E5%AE%B6%E6%97%8F/output_27_0.png" class="" alt="png">
-
-
-
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> sklearn.linear_model <span class="keyword">import</span> SGDRegressor</span><br></pre></td></tr></table></figure>
-
-
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">plt.figure()</span><br><span class="line"><span class="keyword">for</span> alpha <span class="keyword">in</span> [<span class="number">0</span>,<span class="number">1e-5</span>,<span class="number">1</span>]:</span><br><span class="line">    sgd_reg = SGDRegressor(penalty=<span class="string">&#x27;l2&#x27;</span>,alpha=alpha)</span><br><span class="line">    sgd_reg.fit(X,y.ravel())</span><br><span class="line">    plt.scatter(X,y,c=<span class="string">&#x27;k&#x27;</span>,s=<span class="number">4</span>)</span><br><span class="line">    plt.plot(X_,sgd_reg.predict(X_),label=<span class="string">&#x27;alpha=&#123;&#125;&#x27;</span>.<span class="built_in">format</span>(sgd_reg.alpha))</span><br><span class="line">    plt.ylim(<span class="number">0</span>,<span class="number">12</span>)</span><br><span class="line">    plt.legend()</span><br></pre></td></tr></table></figure>
-
-
-<img src="/2021/08/21/%E5%9B%9E%E5%BD%92%E5%A4%A7%E5%AE%B6%E6%97%8F/output_29_0.png" class="" alt="png">
-
-
-<h2 id="Lasso回归"><a href="#Lasso回归" class="headerlink" title="Lasso回归"></a>Lasso回归</h2><p>线性回归的另一种正则化叫做最小绝对收缩和选择算子回归，简称Lasso回归。他向随时函数添加权重向量的L1范数。</p>
-<p>Lasso回归的一个重要特点是，他倾向于完全消除最不重要特征的权重，会自动执行特征选择并输出一个稀疏模型。</p>
-<p>其损失函数如下：</p>
-<p>$$J(\theta)=MSE(\theta)+\alpha \sum_{i=1}^n|\theta_i|$$</p>
-<p>为避免在最优解附近反弹，需要逐渐降低训练期间的学习率。</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> sklearn.linear_model <span class="keyword">import</span> Lasso</span><br></pre></td></tr></table></figure>
-
-
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">plt.figure()</span><br><span class="line"><span class="keyword">for</span> alpha <span class="keyword">in</span> [<span class="number">0.5</span>,<span class="number">1e-5</span>,<span class="number">1</span>]:</span><br><span class="line">    lasso_reg = Lasso(alpha=alpha)</span><br><span class="line">    lasso_reg.fit(X,y)</span><br><span class="line">    plt.scatter(X,y,c=<span class="string">&#x27;k&#x27;</span>,s=<span class="number">4</span>)</span><br><span class="line">    plt.plot(X_,lasso_reg.predict(X_),label=<span class="string">&#x27;alpha=&#123;&#125;&#x27;</span>.<span class="built_in">format</span>(lasso_reg.alpha))</span><br><span class="line">    plt.ylim(<span class="number">0</span>,<span class="number">12</span>)</span><br><span class="line">    plt.legend()</span><br></pre></td></tr></table></figure>
-
-
-<img src="/2021/08/21/%E5%9B%9E%E5%BD%92%E5%A4%A7%E5%AE%B6%E6%97%8F/output_33_0.png" class="" alt="png">
-
-
-<h2 id="弹性网络"><a href="#弹性网络" class="headerlink" title="弹性网络"></a>弹性网络</h2><p>弹性网络是介于岭回归和Lasso回归的中间地带，正则项是权重系数的L1,L2范数的混合，用混合系数r控制。<br>大多数情况下，我们应避免使用纯线性回归，默认岭回归；担当实际用到的特征数很少时，应倾向于使用Lasso或弹性网络。<br>弹性网络的损失函数如下<br>$$J(\theta)=MSE(\theta)+r\alpha \sum_{i=1}^n|\theta_i|+\frac{1-r}{2}\alpha \sum_{i=1}^n\theta_i^2$$</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> sklearn.linear_model <span class="keyword">import</span> ElasticNet</span><br></pre></td></tr></table></figure>
-
-
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">plt.figure()</span><br><span class="line"><span class="keyword">for</span> alpha <span class="keyword">in</span> [<span class="number">0.5</span>,<span class="number">1e-5</span>,<span class="number">1</span>]:</span><br><span class="line">    elatic = ElasticNet(alpha=alpha,l1_ratio=<span class="number">0.5</span>)</span><br><span class="line">    elatic.fit(X,y)</span><br><span class="line">    plt.scatter(X,y,c=<span class="string">&#x27;k&#x27;</span>,s=<span class="number">4</span>)</span><br><span class="line">    plt.plot(X_,elatic.predict(X_),label=<span class="string">&#x27;alpha=&#123;&#125;,r=&#123;&#125;&#x27;</span>.<span class="built_in">format</span>(elatic.alpha,elatic.l1_ratio))</span><br><span class="line">    plt.ylim(<span class="number">0</span>,<span class="number">12</span>)</span><br><span class="line">    plt.legend()</span><br></pre></td></tr></table></figure>
-
-
-<img src="/2021/08/21/%E5%9B%9E%E5%BD%92%E5%A4%A7%E5%AE%B6%E6%97%8F/output_36_0.png" class="" alt="png">
-
-
-<h1 id="逻辑回归"><a href="#逻辑回归" class="headerlink" title="逻辑回归"></a>逻辑回归</h1><p>逻辑回归被广泛用于估算一个实例属于某个特定类别的概率，若预估概率超过50%啧判定该例属于该类别，称为正例，记为1；反之则不属于该类别，称为反类，记为0。它的输出是结果的数理逻辑值。</p>
-<p>逻辑回归模型的估计概率：</p>
-<p>$\hat{p}=h_\theta(\vec{x})=\sigma(\vec{x^T}\vec{\theta})$</p>
-<p>逻辑回归预测模型：</p>
-<p>$\hat{y}=<br>\begin{cases}<br>0&amp; \hat{p}&lt;0.5\<br>1&amp; \hat{p}\ge0.5<br>\end{cases}$</p>
-<p>单个训练实例的损失函数：</p>
-<p>$c(\theta)=<br>\begin{cases}<br>-\log(\hat{p})&amp; y=1\<br>-\log(1-\hat{p})&amp; y=0<br>\end{cases}$</p>
-<p>逻辑回归损失函数：</p>
-<p>$J(\theta)={1\over m} \sum_{i=1}^m[y^i\log(\hat{p}^i)+(1-y^i)\log(1-\hat{p}^i)]$</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> sklearn.linear_model <span class="keyword">import</span> LogisticRegression</span><br><span class="line"><span class="keyword">from</span> sklearn.datasets <span class="keyword">import</span> load_iris</span><br></pre></td></tr></table></figure>
-
-
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">iris = load_iris()</span><br><span class="line">X = iris[<span class="string">&#x27;data&#x27;</span>][:,<span class="number">3</span>:]<span class="comment">#取得第四个特征的每个值</span></span><br><span class="line">y = (iris[<span class="string">&#x27;target&#x27;</span>]==<span class="number">2</span>).astype(np.<span class="built_in">int</span>)</span><br></pre></td></tr></table></figure>
-
-
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">iris[<span class="string">&#x27;feature_names&#x27;</span>]</span><br></pre></td></tr></table></figure>
-
-
-
-
-<pre><code>[&#39;sepal length (cm)&#39;,
- &#39;sepal width (cm)&#39;,
- &#39;petal length (cm)&#39;,
- &#39;petal width (cm)&#39;]
-</code></pre>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">log_reg = LogisticRegression()</span><br><span class="line">log_reg.fit(X,y)</span><br></pre></td></tr></table></figure>
-
-
-
-
-<pre><code>LogisticRegression()
-</code></pre>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">X_ = np.linspace(<span class="number">0</span>,<span class="number">3</span>,<span class="number">1000</span>).reshape(-<span class="number">1</span>,<span class="number">1</span>)</span><br><span class="line">y_ = log_reg.predict_proba(X_)<span class="comment">#predict()返回的是概率最大的类别，predict_proba()返回每种类别的可能性</span></span><br></pre></td></tr></table></figure>
-
-
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">plt.figure(figsize=(<span class="number">10</span>,<span class="number">5</span>))</span><br><span class="line">plt.plot(X_,y_[:,<span class="number">0</span>],<span class="string">&#x27;g--&#x27;</span>,label=<span class="string">&#x27;not virginica&#x27;</span>)</span><br><span class="line">plt.plot(X_,y_[:,<span class="number">1</span>],<span class="string">&#x27;b-&#x27;</span>,label=<span class="string">&#x27;virginica&#x27;</span>)</span><br><span class="line">plt.legend()</span><br><span class="line">plt.plot(X[y==<span class="number">0</span>], y[y==<span class="number">0</span>], <span class="string">&quot;gs&quot;</span>)</span><br><span class="line">plt.plot(X[y==<span class="number">1</span>], y[y==<span class="number">1</span>], <span class="string">&quot;b^&quot;</span>)</span><br></pre></td></tr></table></figure>
-
-
-
-
-<pre><code>[&lt;matplotlib.lines.Line2D at 0x1d311467520&gt;]
-</code></pre>
-<img src="/2021/08/21/%E5%9B%9E%E5%BD%92%E5%A4%A7%E5%AE%B6%E6%97%8F/output_43_1.png" class="" alt="png">
-
-
-
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">log_reg.predict([[<span class="number">2.3</span>],[<span class="number">1</span>]])</span><br></pre></td></tr></table></figure>
-
-
-
-
-<pre><code>array([1, 0])
-</code></pre>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">log_reg.predict_proba([[<span class="number">2.3</span>]])</span><br></pre></td></tr></table></figure>
-
-
-
-
-<pre><code>array([[0.05889014, 0.94110986]])
-</code></pre>
-<h2 id="Softmax回归"><a href="#Softmax回归" class="headerlink" title="Softmax回归"></a>Softmax回归</h2><p>逻辑回归经过推广可以支持多个类别，称为softmax回归，或叫做多元逻辑回归。</p>
-<p>给定一个实例x，Softmax回归模型首先计算出每个类k的分数，然后对这些分数应用softmax函数，估算出每个类的概率。</p>
-<p>Softmax回归分类器一次只能预测一个类（多类一输出），因此他只能与互斥的类一同使用。</p>
-<p>损失函数被称为交叉熵，用于衡量一组估算出的类的概率跟目标类的匹配程度。</p>
-<p>Softmax函数：</p>
-$\hat{p}_k={{\exp(s_k(\vec{x}))} \over {\sum_{j=1}^K\exp(s_j(\vec{x}))}}$
-
-<p>回归分类预测：</p>
-<p>$\hat{y}=argmax(\hat{p}_k)$</p>
-<p>交叉熵损失函数：</p>
-<p>$J(\theta)=-\frac{1}{m}\sum_{i=1}^m\sum_{k=1}^Ky_k^i\log(\hat{p}_k^i)$</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">X = iris[<span class="string">&#x27;data&#x27;</span>][:,(<span class="number">2</span>,<span class="number">3</span>)]</span><br><span class="line">y = iris[<span class="string">&#x27;target&#x27;</span>]</span><br></pre></td></tr></table></figure>
-
-
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">soft_reg = LogisticRegression(multi_class=<span class="string">&#x27;multinomial&#x27;</span>,solver=<span class="string">&#x27;lbfgs&#x27;</span>,C=<span class="number">10</span>)</span><br><span class="line">soft_reg.fit(X,y)</span><br></pre></td></tr></table></figure>
-
-
-
-
-<pre><code>LogisticRegression(C=10, multi_class=&#39;multinomial&#39;)
-</code></pre>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">soft_reg.predict([[<span class="number">5</span>,<span class="number">2</span>]])</span><br></pre></td></tr></table></figure>
-
-
-
-
-<pre><code>array([2])
-</code></pre>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">soft_reg.predict_proba([[<span class="number">5</span>,<span class="number">2</span>]])</span><br></pre></td></tr></table></figure>
-
-
-
-
-<pre><code>array([[6.38014896e-07, 5.74929995e-02, 9.42506362e-01]])
-</code></pre>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">x0,x1 = np.meshgrid(np.linspace(<span class="number">0</span>,<span class="number">8</span>,<span class="number">1000</span>).reshape(-<span class="number">1</span>,<span class="number">1</span>),np.linspace(<span class="number">0</span>,<span class="number">3.5</span>,<span class="number">1000</span>).reshape(-<span class="number">1</span>,<span class="number">1</span>))</span><br><span class="line">X_ = np.c_[x0.ravel(),x1.ravel()]</span><br></pre></td></tr></table></figure>
-
-
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">y_prob = soft_reg.predict_proba(X_)</span><br><span class="line">y_pred = soft_reg.predict(X_)</span><br></pre></td></tr></table></figure>
-
-
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">z=y_pred.reshape(x0.shape)</span><br></pre></td></tr></table></figure>
-
-
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">plt.figure(figsize=(<span class="number">10</span>, <span class="number">4</span>))</span><br><span class="line">plt.plot(X[y==<span class="number">2</span>, <span class="number">0</span>], X[y==<span class="number">2</span>, <span class="number">1</span>], <span class="string">&quot;g^&quot;</span>, label=<span class="string">&quot;Iris virginica&quot;</span>)</span><br><span class="line">plt.plot(X[y==<span class="number">1</span>, <span class="number">0</span>], X[y==<span class="number">1</span>, <span class="number">1</span>], <span class="string">&quot;bs&quot;</span>, label=<span class="string">&quot;Iris versicolor&quot;</span>)</span><br><span class="line">plt.plot(X[y==<span class="number">0</span>, <span class="number">0</span>], X[y==<span class="number">0</span>, <span class="number">1</span>], <span class="string">&quot;yo&quot;</span>, label=<span class="string">&quot;Iris setosa&quot;</span>)</span><br><span class="line">plt.contour(x0,x1,z)</span><br><span class="line">plt.legend()</span><br><span class="line">plt.axis([<span class="number">0</span>,<span class="number">8</span>,<span class="number">0</span>,<span class="number">3.5</span>])</span><br></pre></td></tr></table></figure>
-
-
-
-
-<pre><code>(0.0, 8.0, 0.0, 3.5)
-</code></pre>
-<img src="/2021/08/21/%E5%9B%9E%E5%BD%92%E5%A4%A7%E5%AE%B6%E6%97%8F/output_54_1.png" class="" alt="png">
-
-
-<h1 id="附录-参数列表"><a href="#附录-参数列表" class="headerlink" title="附录 参数列表"></a>附录 参数列表</h1><h2 id="LinearRegression"><a href="#LinearRegression" class="headerlink" title="LinearRegression"></a>LinearRegression</h2><table>
-<thead>
-<tr>
-<th>参数</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>normalize</td>
-<td>bool, default=False:如果为True，则在回归之前通过减去均值并除以l2-范数来对回归变量X进行归一化。</td>
-</tr>
-<tr>
-<td>n_jobs</td>
-<td>int, default=None:设置用于计算的核心数。</td>
-</tr>
-</tbody></table>
-<table>
-<thead>
-<tr>
-<th>属性</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>coef_</td>
-<td>线性回归问题的估计系数。</td>
-</tr>
-<tr>
-<td>intercept_</td>
-<td>线性模型中的截距项。</td>
-</tr>
-</tbody></table>
-<h2 id="ElasticNet"><a href="#ElasticNet" class="headerlink" title="ElasticNet"></a>ElasticNet</h2><table>
-<thead>
-<tr>
-<th>参数</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>alpha</td>
-<td>float, default=1.0:乘以惩罚项的常数。</td>
-</tr>
-<tr>
-<td>l1_ratio</td>
-<td>float, default=0.5:弹性网络的混合系数。</td>
-</tr>
-<tr>
-<td>max_iter</td>
-<td>int, default=1000：最大迭代次数。</td>
-</tr>
-<tr>
-<td>tol</td>
-<td>float, default=1e-4：优化的容忍度。</td>
-</tr>
-<tr>
-<td>warm_start</td>
-<td>bool, default=False：设置为True时，重用前面调用的解决方案来进行初始化，否则，只清除前面的解决方案。</td>
-</tr>
-<tr>
-<td>normalize</td>
-<td>bool, default=False:如果为True，则在回归之前通过减去均值并除以l2-范数来对回归变量X进行归一化。</td>
-</tr>
-<tr>
-<td>n_jobs</td>
-<td>int, default=None:设置用于计算的核心数。</td>
-</tr>
-</tbody></table>
-<table>
-<thead>
-<tr>
-<th>属性</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>coef_</td>
-<td>线性回归问题的估计系数。</td>
-</tr>
-<tr>
-<td>intercept_</td>
-<td>线性模型中的截距项。</td>
-</tr>
-</tbody></table>
-<h2 id="Lasso"><a href="#Lasso" class="headerlink" title="Lasso"></a>Lasso</h2><table>
-<thead>
-<tr>
-<th>参数</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>normalize</td>
-<td>bool, default=False:如果为True，则在回归之前通过减去均值并除以l2-范数来对回归变量X进行归一化。</td>
-</tr>
-<tr>
-<td>alpha</td>
-<td>float, default=1.0:乘以惩罚项的常数。</td>
-</tr>
-<tr>
-<td>n_jobs</td>
-<td>int, default=None:设置用于计算的核心数。</td>
-</tr>
-<tr>
-<td>max_iter</td>
-<td>int, default=1000：最大迭代次数。</td>
-</tr>
-<tr>
-<td>tol</td>
-<td>float, default=1e-4：优化的容忍度。</td>
-</tr>
-<tr>
-<td>warm_start</td>
-<td>bool, default=False：设置为True时，重用前面调用的解决方案来进行初始化，否则，只清除前面的解决方案。</td>
-</tr>
-</tbody></table>
-<table>
-<thead>
-<tr>
-<th>属性</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>coef_</td>
-<td>线性回归问题的估计系数。</td>
-</tr>
-<tr>
-<td>intercept_</td>
-<td>线性模型中的截距项。</td>
-</tr>
-</tbody></table>
-<h2 id="Ridge"><a href="#Ridge" class="headerlink" title="Ridge"></a>Ridge</h2><table>
-<thead>
-<tr>
-<th>参数</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>normalize</td>
-<td>bool, default=False:如果为True，则在回归之前通过减去均值并除以l2-范数来对回归变量X进行归一化。</td>
-</tr>
-<tr>
-<td>alpha</td>
-<td>float, default=1.0:乘以惩罚项的常数。</td>
-</tr>
-<tr>
-<td>n_jobs</td>
-<td>int, default=None:设置用于计算的核心数。</td>
-</tr>
-<tr>
-<td>max_iter</td>
-<td>int, default=1000：最大迭代次数。</td>
-</tr>
-<tr>
-<td>tol</td>
-<td>float, default=1e-4：优化的容忍度。</td>
-</tr>
-<tr>
-<td>warm_start</td>
-<td>bool, default=False：设置为True时，重用前面调用的解决方案来进行初始化，否则，只清除前面的解决方案。</td>
-</tr>
-</tbody></table>
-<table>
-<thead>
-<tr>
-<th>属性</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>coef_</td>
-<td>线性回归问题的估计系数。</td>
-</tr>
-<tr>
-<td>intercept_</td>
-<td>线性模型中的截距项。</td>
-</tr>
-</tbody></table>
-<h2 id="LogisticRegression"><a href="#LogisticRegression" class="headerlink" title="LogisticRegression"></a>LogisticRegression</h2><table>
-<thead>
-<tr>
-<th>参数</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>penalty</td>
-<td>{‘L1’, ‘L2’, ‘elasticnet’, ‘none’}, default=’L2’:用于指定处罚中使用的规范。</td>
-</tr>
-<tr>
-<td>C</td>
-<td>float, default=1.0:正则强度的倒数；必须为正浮点数。</td>
-</tr>
-<tr>
-<td>n_jobs</td>
-<td>int, default=None:设置用于计算的核心数。</td>
-</tr>
-<tr>
-<td>max_iter</td>
-<td>int, default=1000：最大迭代次数。</td>
-</tr>
-<tr>
-<td>tol</td>
-<td>float, default=1e-4：优化的容忍度。</td>
-</tr>
-<tr>
-<td>warm_start</td>
-<td>bool, default=False：设置为True时，重用前面调用的解决方案来进行初始化，否则，只清除前面的解决方案。</td>
-</tr>
-<tr>
-<td>class_weight</td>
-<td>dict or ‘balanced’, default=None:以{class_label: weight}的形式与类别关联的权重。如果没有给出，所有类别的权重都应该是1。<br>“balanced”模式使用y的值来自动调整为与输入数据中的类频率成反比的权重。</td>
-</tr>
-<tr>
-<td>multi_class</td>
-<td>{‘auto’, ‘ovr’, ‘multinomial’}, default=’auto’:如果选择的选项是“ ovr”，则每个标签都看做二分类问题。对于“multinomial”，即使数据是二分类的，损失最小是多项式损失拟合整个概率分布。</td>
-</tr>
-</tbody></table>
-<table>
-<thead>
-<tr>
-<th>属性</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>coef_</td>
-<td>线性回归问题的估计系数。</td>
-</tr>
-<tr>
-<td>intercept_</td>
-<td>线性模型中的截距项。</td>
-</tr>
-<tr>
-<td>classes_</td>
-<td>分类器已知的类别标签列表。</td>
-</tr>
-</tbody></table>
-
+          <p>用tensorflow实现各种回归！</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/08/21/%E5%9B%9E%E5%BD%92%E5%A4%A7%E5%AE%B6%E6%97%8F/">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -773,8 +346,9 @@ $\hat{p}_k={{\exp(s_k(\vec{x}))} \over {\sum_{j=1}^K\exp(s_j(\vec{x}))}}$
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2021-08-21 07:49:22" itemprop="dateCreated datePublished" datetime="2021-08-21T07:49:22+08:00">2021-08-21</time>
+              <time title="创建时间：2021-08-21 07:49:22 / 修改时间：13:41:22" itemprop="dateCreated datePublished" datetime="2021-08-21T07:49:22+08:00">2021-08-21</time>
             </span>
 
           
@@ -788,20 +362,15 @@ $\hat{p}_k={{\exp(s_k(\vec{x}))} \over {\sum_{j=1}^K\exp(s_j(\vec{x}))}}$
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
+          <p>终于构建了自己的博客！</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/08/21/hello-world/">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -882,12 +451,12 @@ $\hat{p}_k={{\exp(s_k(\vec{x}))} \over {\sum_{j=1}^K\exp(s_j(\vec{x}))}}$
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">4</span>
         <span class="site-state-item-name">标签</span>
       </div>
   </nav>
@@ -959,6 +528,10 @@ $\hat{p}_k={{\exp(s_k(\vec{x}))} \over {\sum_{j=1}^K\exp(s_j(\vec{x}))}}$
   
 
 
+
+
+  
+<script src="/js/local-search.js"></script>
 
 
 
